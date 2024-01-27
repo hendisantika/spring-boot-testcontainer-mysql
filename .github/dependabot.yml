@@ -5,5 +5,5 @@ updates:
     schedule:
       interval: daily
       time: '21:00'
-      timezone: Asia/Manila
+      timezone: Asia/Jakarta
     open-pull-requests-limit: 10

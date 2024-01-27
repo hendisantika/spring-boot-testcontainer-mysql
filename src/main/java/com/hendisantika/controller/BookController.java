@@ -29,7 +29,7 @@ public class BookController {
     private final BookRepository bookRepository;
 
     @GetMapping
-    List<Book> getAllBook(@Valid @RequestBody Book book) {
+    List<Book> getAllBook() {
         return bookRepository.findAll();
     }
 

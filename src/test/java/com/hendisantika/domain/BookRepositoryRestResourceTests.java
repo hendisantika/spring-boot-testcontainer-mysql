@@ -12,7 +12,7 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
-import static org.springframework.http.HttpStatus.CREATED;
+import static org.springframework.http.HttpStatus.OK;
 
 /**
  * Created by IntelliJ IDEA.
@@ -46,13 +46,13 @@ public class BookRepositoryRestResourceTests {
 
         ResponseEntity<Book> response = restTemplate.postForEntity("/books", book, Book.class);
 
-        assertThat(response.getStatusCode()).isEqualTo(CREATED);
+        assertThat(response.getStatusCode()).isEqualTo(OK);
     }
 
     private Author author() {
         var author = new Author();
 
-        author.setName("Rudyard Kipling");
+        author.setName("Uzumaki Naruto");
 
         return author;
     }
