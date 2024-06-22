@@ -28,7 +28,7 @@ import static org.springframework.http.HttpStatus.OK;
 @SpringBootTest(
         properties = {
                 "spring.jpa.generate-ddl=true",
-                "spring.datasource.url=jdbc:tc:mysql:8:///test"
+                "spring.datasource.url=jdbc:tc:mysql:8.4.0:///test"
         },
         webEnvironment = RANDOM_PORT
 )

@@ -27,7 +27,7 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 @SpringBootTest(
         properties = {
                 "management.endpoint.health.show-details=always",
-                "spring.datasource.url=jdbc:tc:mysql:8:///test"
+                "spring.datasource.url=jdbc:tc:mysql:8.4.0:///test"
         },
         webEnvironment = RANDOM_PORT
 )
