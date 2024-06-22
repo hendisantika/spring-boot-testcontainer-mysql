@@ -2,7 +2,7 @@
 
 Avoid running different databases between integration tests and production.
 
-![Maven Build](https://github.com/hendisantika/spring-boot-testcontainer-mysql/workflows/Maven%20Build/badge.svg?branch=master)
+![Maven Build](https://github.com/hendisantika/spring-boot-testcontainer-mysql/workflows/Maven%20Build/badge.svg?branch=main)
 
 ## Background
 
